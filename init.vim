@@ -20,7 +20,7 @@ Plug 'https://github.com/907th/vim-auto-save' " Auto saving
 
 let g:auto_save = 1
 " let g:auto_save_silent = 1
-let auto_save_events = ['TextChangedI']
+" let auto_save_events = ['TextChangedI']
 
 let g:coc_global_extensions = ['coc-css', 'coc-emmet', 'coc-eslint', 'coc-git', 'coc-html', 'coc-json', 'coc-tailwindcss', 'coc-tsserver', 'coc-vetur', 'coc-tslint', 'coc-prettier']
 

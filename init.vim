@@ -25,7 +25,7 @@ let auto_save_events = ['TextChangedI']
 let g:coc_global_extensions = ['coc-css', 'coc-emmet', 'coc-eslint', 'coc-git', 'coc-html', 'coc-json', 'coc-tailwindcss', 'coc-tsserver', 'coc-vetur', 'coc-tslint', 'coc-prettier']
 
 call plug#end()
-
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 set encoding=UTF-8
 
 :colorscheme gruvbox
